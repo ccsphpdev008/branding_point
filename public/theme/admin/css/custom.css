@@ -1,0 +1,101 @@
+/* scrollbar */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        /* background: #99FF66; */
+        border-radius: 10px;
+    }
+/* scrollbar */
+
+.hide{
+    display: none !important;
+}
+.bootstrap-select ul.dropdown-menu > li, .bootstrap-select div.dropdown-menu > .bs-searchbox{
+    margin-left: 25px;
+}
+a.no-style{
+    text-decoration:none;
+}
+.no-select{
+    user-select: none;
+}
+
+.my-zoom-text {
+    font-size: 22px;
+    margin-left: 5px;
+}
+.my-zoom {
+    animation: mymove 5s infinite
+}
+@keyframes mymove {
+    0%{
+        transform: scale(0.8)
+    } 50% {
+        transform: scale(1)
+    } 100% {
+        transform: scale(0.8)
+    }
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.up-text{
+    text-transform: uppercase;
+}
+.low-text{
+    text-transform: lowercase;
+}
+.hv-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+#ajax-data-fill {
+  display: none;
+}
+
+.select2-container{
+    min-width: 200px !important;
+    width: auto !important;
+    max-width: 100% !important;
+}
+
+.image-100-100{
+    height: 100px !important;
+    width: 100px !important;
+}
+.image-200-200{
+    height: 200px !important;
+    width: 200px !important;
+}
+.image-300-300{
+    height: 300px !important;
+    width: 300px !important;
+}
+.image-400-400{
+    height: 400px !important;
+    width: 400px !important;
+}
+
+.image-300-0{
+    height: 300px !important;
+    width: 100% !important;
+}
+.image-400-0{
+    height: 400px !important;
+    width: 100% !important;
+}
